@@ -22,7 +22,7 @@ const ContentPage = (): React.ReactElement => {
         >
           <img
             className="relative w-full h-full shadow-sm rounded-md mt-2"
-            alt="insurers-logo"
+            alt="hero-img"
             src={hero.images.md}
             onClick={() => HandleClickImage(hero.id)}
           />

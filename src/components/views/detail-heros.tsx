@@ -13,7 +13,7 @@ const HeroDetail = (): React.ReactElement => {
       <div className="col-span-3 h-96 w-80 p-4 col-start-1 mobile:col-span-1">
         <img
           className="relative w-full h-full mt-2 shadow-sm rounded-md desktop:ml-10 laptop:ml-10"
-          alt="insurers-logo"
+          alt="hero-img"
           src={superHerosDetail?.images.md}
         />
       </div>
