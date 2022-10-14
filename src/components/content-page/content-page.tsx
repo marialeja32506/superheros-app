@@ -14,11 +14,11 @@ const ContentPage = (): React.ReactElement => {
   };
 
   return (
-    <div className="grid grid-cols-12 gap-4 p-4 mobile:grid-cols-1">
+    <div className="grid grid-cols-12 gap-4 p-4 mobile:grid-cols-4 mobile:gap-1">
       {superHerosList?.map((hero: any) => (
         <div
           key={hero.id}
-          className="relative col-span-2 h-80 shadow-sm rounded-md mobile:col-span-1 tablet:col-span-4 laptop:col-span-3"
+          className="relative col-span-2 h-80 shadow-sm rounded-md mobile:col-span-2 tablet:col-span-4 laptop:col-span-3 mobile:h-64"
         >
           <img
             className="relative w-full h-full shadow-sm rounded-md mt-2"
